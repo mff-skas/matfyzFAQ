@@ -63,7 +63,7 @@ def print_head(title, subtitle):
     }
 
     function copyToClipboard(text) {
-        window.prompt("Zkopíruj si odkaz a pošli ho tazateli!", window.location.protocol + "//" + window.location.hostname + "/" + text)
+        window.prompt("Zkopíruj si odkaz a pošli ho tazateli!", window.location.protocol + "//" + window.location.hostname + window.location.pathname + text)
     }
 
 </script>'''
@@ -158,7 +158,7 @@ def print_footer():
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <h6 class="mbr-text mb-0 mbr-fonts-style display-7" style="font-weight:normal;">
-                    Authors: <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a>, <a href="http://www.ms.mff.cuni.cz/~yaghoboa/" class="text-white">Anna Yaghobová</a>, Míra Štochel, Petr Houška, <a href="https://vilda.net" class="text-white">Vilém Zouhar</a>, Petra Hoffmannová, Peter Korcsok, Honza Hrabovský a spousta dotazovatelů z řad studentů…
+                    Authors: <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a>, <a href="http://www.ms.mff.cuni.cz/~yaghoboa/" class="text-white">Anna Yaghobová</a>, Míra Štochel, Petr Houška, <a href="https://vilda.net" class="text-white">Vilém Zouhar</a>, Petra Hoffmannová, Peter Korcsok, Honza Hrabovský, Vojtěch Švandelík a spousta dotazovatelů z řad studentů…
                 </h6>
                 Tento web máme na <a href="https://github.com/mff-skas/matfyzFAQ" class="text-white">GitHubu</a>!
                 <h6 class="mbr-text mb-0 mbr-fonts-style display-7" style="font-weight:normal;">
