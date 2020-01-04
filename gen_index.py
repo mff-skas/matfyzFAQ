@@ -1,5 +1,4 @@
 import csv
-import datetime
 
 def get_config():
   title = "Matfyz FAQ"
@@ -140,8 +139,6 @@ def print_sections(sections):
     print_section(title, id, path)
 
 def print_footer():
-  now = datetime.datetime.now()
-
   footer = f'''\
 <section class="header11 cid-qv5BLEQHXO" id="disclaimer" data-rv-view="2085">
     <div class="container align-center">
@@ -161,11 +158,11 @@ def print_footer():
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <h6 class="mbr-text mb-0 mbr-fonts-style display-7" style="font-weight:normal;">
-                    &copy; Content copyright 2018 - {now.year}: <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a>, <a href="http://www.ms.mff.cuni.cz/~yaghoboa/" class="text-white">Anna Yaghobová</a>, Míra Štochel, Petr Houška, Vilém Zouhar, Petra Hoffmannová, Peter Korcsok, Honza Hrabovský a spousta dotazovatelů z řad studentů…
+                    Authors: <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a>, <a href="http://www.ms.mff.cuni.cz/~yaghoboa/" class="text-white">Anna Yaghobová</a>, Míra Štochel, Petr Houška, <a href="https://vilda.net" class="text-white">Vilém Zouhar</a>, Petra Hoffmannová, Peter Korcsok, Honza Hrabovský a spousta dotazovatelů z řad studentů…
                 </h6>
-                Jo. A je to i na <a href="https://github.com/mff-skas/matfyzFAQ" class="text-white">GitHubu</a>!
+                Tento web máme na <a href="https://github.com/mff-skas/matfyzFAQ" class="text-white">GitHubu</a>!
                 <h6 class="mbr-text mb-0 mbr-fonts-style display-7" style="font-weight:normal;">
-                    &copy; Theme copyright 2017: <a href="https://mobirise.com/bootstrap-template/" class="text-white">Free Bootstrap Templates</a>, edited by <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a>
+                    &copy; Theme copyright: <a href="https://mobirise.com/bootstrap-template/" class="text-white">Free Bootstrap Templates</a>, edited by <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a>
                 </h6>
             </div>
         </div>
@@ -182,7 +179,6 @@ def print_footer():
 
 if __name__ == '__main__':
   title, subtitle, sections = get_config()
-  import csv
 
   print_head(title, subtitle)
   print_sections(sections)
