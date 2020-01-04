@@ -12,26 +12,28 @@ Teď už stačí jen odkazem! Buď se odkážeme na [FAQ](http://faq.matfyz.cz/)
 
 ## Jak editovat otázky a odpovědi?
 
-Stačí je přidávat do příslušného souboru. Jo a nezapomeňte se podepsat do patičky!
+Stačí je přidávat do příslušného souboru v `./questions_answers/`. Jo a nezapomeňte se podepsat do patičky!
 
 ### Jak se přidává do souboru?
 
 Každý soubor s otázkami má jednoduchou syntaxi. První řádek obsahuje:
 
 ```
-"Q", "A", "link"
+"Q","A","link"
 ```
 
 A každý další potom příslušné políčko tabulky. Takhle by to mohlo vypadat ve vzorové tabulce:
 
 ```
-"Q", "A", "link"
-"Otázka", "Odpověď", "velmi-dobra-otazka-s-odkazem"
-"otázka", "bez odkazu?", ""
+"Q","A","link"
+"Otázka","Odpověď","velmi-dobra-otazka-s-odkazem"
+"otázka","bez odkazu?",""
 ```
 
 Jak jste si jistě všimli, u druhé otázky jsme neuvedli odkaz, ale přesto nesmíme zapomenout na uvozovky. Ale nebojte se, odkaz se vygeneruje i tak.
 
 Mimochodem, link nesmí obsahovat podtržítko.
 
-## A to je vše
+## Licence:
+- Šablona (`assets/`, prvky `gen_index.py`): modifikovaná verze [mobirise.com/bootstrap-template](https://mobirise.com/bootstrap-template/license.txt)
+- Zbytek (otázky, kód `gen_index.py`, ...): MIT
