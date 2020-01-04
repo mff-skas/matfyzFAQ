@@ -3,7 +3,7 @@ import datetime
 
 def get_config():
   title = "Matfyz FAQ"
-  subtitle = "To, na co jste se nás už nejednou ptali."
+  subtitle = "To, na co jste se nás již nejednou ptali"
 
   # Usage: ("Nadpis sekce", "unikatni identifikatro (bude slouzit i jako predpona pro nedefinovana jmena linku; nesmi obsahovat podtrzitko)", "cesta k souboru s otazkami");
   sections = [
@@ -37,7 +37,6 @@ def print_head(title, subtitle):
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
   <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-
 <style>
 .mbr-fonts-style{{line-height: 1.5;}}
 </style>'''
@@ -72,28 +71,14 @@ def print_head(title, subtitle):
 
   header = f'''
 </head>
-
-
 <body onload="scroll_to_hash();">
-
-
 <section class="header11 cid-qv5BLEQHXO" id="header" data-rv-view="2085">
-
-    <!-- Block parameters controls (Blue "Gear" panel) -->
-
-    <!-- End block parameters -->
-
-
     <div class="container align-left">
         <div class="media-container-column mbr-white col-md-12">
-
             <h1 class="mbr-section-title py-3 mbr-fonts-style display-1">{title}</h1>
-
             <h3 class="mbr-section-title py-3 mbr-fonts-style display-2">{subtitle}</h3>
         </div>
     </div>
-
-
 </section>'''
 
   print(head)
@@ -176,11 +161,11 @@ def print_footer():
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <h6 class="mbr-text mb-0 mbr-fonts-style display-7" style="font-weight:normal;">
-                    &copy; Content copyright 2018 - {now.year}: <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a>, <a href="http://www.ms.mff.cuni.cz/~yaghoboa/" class="text-white">Anna Yaghobová</a>, Míra Štochel, Petr Houška, Petra Hoffmannová, Peter Korcsok, Honza Hrabovský<br />a spousta dotazovatelů z řad studentů…
+                    &copy; Content copyright 2018 - {now.year}: <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a>, <a href="http://www.ms.mff.cuni.cz/~yaghoboa/" class="text-white">Anna Yaghobová</a>, Míra Štochel, Petr Houška, Vilém Zouhar, Petra Hoffmannová, Peter Korcsok, Honza Hrabovský a spousta dotazovatelů z řad studentů…
                 </h6>
                 Jo. A je to i na <a href="https://github.com/mff-skas/matfyzFAQ" class="text-white">GitHubu</a>!
                 <h6 class="mbr-text mb-0 mbr-fonts-style display-7" style="font-weight:normal;">
-                    &copy; Theme copyright 2017: <a href="https://mobirise.com/bootstrap-template/" class="text-white">Free Bootstrap Templates</a>, heavily edited by <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a> - Byli jsme líní si to psát sami, tak jsme si to půjčili, no.
+                    &copy; Theme copyright 2017: <a href="https://mobirise.com/bootstrap-template/" class="text-white">Free Bootstrap Templates</a>, edited by <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a>
                 </h6>
             </div>
         </div>
@@ -191,10 +176,7 @@ def print_footer():
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
-
-
 </body>
-
 </html> '''
   print(footer)
 
