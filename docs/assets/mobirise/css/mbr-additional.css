@@ -1637,7 +1637,7 @@ body {
   margin-bottom: 0;
   text-align: left;
 }
-.cid-qvLARQeeGD p {
+.cid-qvLARQeeGD p, .cid-qvLARQeeGD li {
   color: #767676;
   text-align: left;
 }
@@ -1693,7 +1693,7 @@ body {
   margin-bottom: 0;
   text-align: left;
 }
-.cid-qvzg5xbzgU p {
+.cid-qvzg5xbzgU p,.cid-qvzg5xbzgU li {
   color: #767676;
   text-align: left;
 }
@@ -22126,7 +22126,7 @@ body {
   background-color: #ffffff;
   position: relative;
 }
-.cid-qv5Aju6kt2 p {
+.cid-qv5Aju6kt2 p, .cid-qv5Aju6kt2 li {
   color: #767676;
 }
 .cid-qv5Aju6kt2 .card {

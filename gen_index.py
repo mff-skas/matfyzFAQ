@@ -6,6 +6,7 @@ def get_config():
 
   # Usage: ("Nadpis sekce", "unikatni identifikatro (bude slouzit i jako predpona pro nedefinovana jmena linku; nesmi obsahovat podtrzitko)", "cesta k souboru s otazkami");
   sections = [
+    ("COVID-19 dotazy", "covid", "questions_answers/covid_dotazy.csv"),
     ("Obecné dotazy", "obecne", "questions_answers/obecne_dotazy.csv"),
     ("Fyzikální dotazy","fyzikalni","questions_answers/fyzikalni_dotazy.csv"),
     ("Informatické dotazy","informaticke","questions_answers/informaticke_dotazy.csv"),
