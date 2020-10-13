@@ -159,7 +159,7 @@ def print_footer():
         <div class="media-container-row align-center mbr-white">
             <div class="col-12">
                 <h6 class="mbr-text mb-0 mbr-fonts-style display-7" style="font-weight:normal;">
-                    Authors: <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a>, <a href="http://www.ms.mff.cuni.cz/~yaghoboa/" class="text-white">Anna Yaghobová</a>, Míra Štochel, <a href="https://petrroll.cz" class="text-white">Petr Houška</a>, <a href="https://vilda.net" class="text-white">Vilém Zouhar</a>, Petra Hoffmannová, Peter Korcsok, Honza Hrabovský, Vojtěch Švandelík a spousta dotazovatelů z řad studentů…
+                    Authors: <a href="http://pobdr.matfyz.cz" class="text-white">Pavel Obdržálek</a>, <a href="http://www.ms.mff.cuni.cz/~yaghoboa/" class="text-white">Anna Yaghobová</a>, Míra Štochel, <a href="https://petrroll.cz" class="text-white">Petr Houška</a>, <a href="https://vilda.net" class="text-white">Vilém Zouhar</a>, Petra Hoffmannová, Peter Korcsok, Honza Hrabovský, Vojtěch Švandelík, Andrej Farkaš a spousta dotazovatelů z řad studentů…
                 </h6>
                 Tento web máme na <a href="https://github.com/mff-skas/matfyzFAQ" class="text-white">GitHubu</a>!
                 <h6 class="mbr-text mb-0 mbr-fonts-style display-7" style="font-weight:normal;">
